@@ -85,11 +85,11 @@ src
 3.Run development server
   启动开发服务器
   ```bash
-  npm run dev
-  # or
-  yarn dev
-
-4. Open browser and visit http://localhost:5173
+   npm run dev
+   # or
+   yarn dev
+  ```
+4.Open browser and visit http://localhost:5173
 
 ---
 
