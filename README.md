@@ -74,3 +74,47 @@ src
    ```bash
    git clone https://github.com/April1031/big-event-frontend.git
    cd big-event-frontend
+   
+2. Install dependencies
+   安装依赖
+   ```bash
+   npm install
+   # or
+   yarn install
+
+3.Run development server
+  启动开发服务器
+  ```bash
+  npm run dev
+  # or
+  yarn dev
+
+4，Open browser and visit http://localhost:5173
+
+---
+
+## Features | 功能介绍
+
+* User registration and login  
+  用户注册与登录
+
+* Article and category management (CRUD)  
+  文章及分类的增删改查
+
+* Personal profile management (view and edit user info, avatar, password reset)  
+  个人资料管理（查看和编辑用户信息、头像、更改密码）
+
+* Token-based authentication with Pinia store  
+  基于 Token 的认证，使用 Pinia 管理状态
+
+---
+
+## Notes | 备注
+
+* This project is the frontend part, backend is a separate Spring Boot application.  
+  本项目为前端部分，后端为独立的 Spring Boot 应用。
+
+* Proxy is configured in `vite.config.js` to forward API requests to backend.  
+  已在 `vite.config.js` 中配置代理，转发接口请求到后端。
+  
+   
