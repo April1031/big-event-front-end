@@ -1,29 +1,76 @@
-# big-event
+# Big Event - Frontend Project | 大事件 - 前端项目
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the frontend project of "Big Event", built with Vue 3 and Element Plus. It supports user registration/login, article & category management, and personal profile features.
 
-## Recommended IDE Setup
+这是基于 Vue 3 和 Element Plus 构建的“大事件”前端项目，实现了用户注册登录、文章及分类管理、个人资料等功能。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+## Project Structure | 项目结构
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+src
+│  App.vue
+│  main.js
+│
+├─api
+│      article.js
+│      user.js
+│
+├─assets
+│      avatar.jpg
+│      cover.jpg
+│      default.png
+│      login_bg.jpg
+│      login_title.png
+│      logo.png
+│      logo2.png
+│      main.scss
+│
+├─components
+├─router
+│      index.js
+│
+├─stores
+│      token.js
+│      userInfo.js
+│
+├─utils
+│      request.js
+│
+└─views
+    │  Layout.vue
+    │  Login.vue
+    │
+    ├─article
+    │      ArticleCategory.vue
+    │      ArticleManage.vue
+    │
+    └─user
+            UserAvatar.vue
+            UserInfo.vue
+            UserResetPassword.vue
 ```
+---
 
-### Compile and Minify for Production
+## Environment & Dependencies | 环境及依赖
 
-```sh
-npm run build
-```
+- Node.js version: >=14.x  
+- Package manager: npm or yarn  
+- Main dependencies:  
+  - Vue 3  
+  - Element Plus  
+  - axios  
+  - pinia  
+  - vue-router  
+
+---
+
+## Setup & Run | 安装与运行
+
+1. Clone the repository  
+   克隆仓库  
+
+   ```bash
+   git clone https://github.com/April1031/big-event-frontend.git
+   cd big-event-frontend
