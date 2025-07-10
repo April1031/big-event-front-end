@@ -89,7 +89,7 @@ src
   # or
   yarn dev
 
-4，Open browser and visit http://localhost:5173
+4. Open browser and visit http://localhost:5173
 
 ---
 
